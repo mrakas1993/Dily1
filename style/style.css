@@ -1,1 +1,73 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, p {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul, ol {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+@font-face {
+  font-family: "TT Norms";
+  src: url("../fonts/tt/TTNorms-ExtraBold.woff") format("woff");
+  font-weight: 800;
+}
+@font-face {
+  font-family: "TT Norms";
+  src: url("../fonts/tt/TTNorms-Thin.woff") format("woff");
+  font-weight: 200;
+}
+@font-face {
+  font-family: "TT Norms";
+  src: url("../fonts/tt/TTNorms-Regular.woff") format("woff");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "TT Norms";
+  src: url("../fonts/tt/TTNorms-Bold.woff") format("woff");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "TT Norms";
+  src: url("../fonts/tt/TTNorms-Black.woff") format("woff");
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/gilroy/Gilroy-SemiBold.woff") format("woff");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/gilroy/Gilroy-Bold.woff") format("woff");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "SF Pro";
+  src: url("../fonts/sf/SFProDisplay-Regular.woff") format("woff");
+  font-weight: 400;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header .green-line {
+  background: linear-gradient(90deg, #00C65E 26.28%, rgba(0, 198, 94, 0) 101.66%);
+  height: 6px;
+}/*# sourceMappingURL=style.css.map */

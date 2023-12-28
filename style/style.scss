@@ -1,0 +1,19 @@
+@import 'reset';
+@import 'fonts';
+
+$green:#00C65E;
+$lightorange:#FFB762;
+$orange:#F89358;
+$lightgreen:#CCEFDB;
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    .green-line{
+        background: linear-gradient(90deg, #00C65E 26.28%, rgba(0, 198, 94, 0.00) 101.66%);
+        height: 6px;
+    }
+}
